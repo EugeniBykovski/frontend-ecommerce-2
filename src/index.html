@@ -4,9 +4,375 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-Commerce layout</title>
+
+  <title>HooBank | website</title>
+
+  <link rel="shortcut icon" href="./img/icons/logo.svg" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
+  <header class="header">
+    <div class="logo">
+      <img src="./img/icons/logo.svg" alt="logo" class="image">
+      <a href="./index.html" class="logo-title">HooBank</a>
+    </div>
+
+    <nav class="navbar">
+      <ul class="navbar__lists">
+        <li class="navbar__list"><a href="#" class="navbar__link">Home</a></li>
+        <li class="navbar__list"><a href="#" class="navbar__link">About Us</a></li>
+        <li class="navbar__list"><a href="#" class="navbar__link">Features</a></li>
+        <li class="navbar__list"><a href="#" class="navbar__link">Solution</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="container section section-1">
+      <div class="section__block">
+        <div class="section__block_description">
+          <div class="cards">
+            <img src="./img/icons/bulk.svg" alt="bulk">
+            <p class="title-description"><span class="decorate">20%</span> DISCOUNT FOR <span class="decorate">1 MONTH</span> ACCOUNT</p>
+          </div>
+
+          <h1 class="title">The Next Payment <br> Method.</h1>
+          <p class="title-description">Our team of experts uses a methodology to identify the <br> credit cards most likely to fit your needs. <br> We examine annual percentage rates, annual fees.</p>
+
+          <!-- Button trigger modal -->
+          <a href="#" class="btns btns__add" data-toggle="modal" data-target="#exampleModalCenter">Get Started</a>
+        </div>
+
+        <img src="./img/icons/card.svg" alt="cards" class="image__card">
+      </div>
+    </section>
+
+    <section class="container section section-2">
+      <div class="section__block">
+        <ul class="navbar__lists">
+          <li class="navbar__list">
+            <h3 class="title-section">3800+</h3>
+            <p class="title-description">User Active</p>
+          </li>
+
+          <li class="navbar__list">
+            <h3 class="title-section">230+</h3>
+            <p class="title-description">TRUSTED BY COMPANY</p>
+          </li>
+
+          <li class="navbar__list">
+            <h3 class="title-section">$230M+</h3>
+            <p class="title-description">TRANSACTION</p>
+          </li>
+
+          <li class="navbar__list">
+            <h3 class="title-section">$150M</h3>
+            <p class="title-description">SALARY</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container section section-3">
+      <div class="section__block">
+        <div class="section__block_description">
+          <h1 class="title">You do the business, we</h1>
+          <h2 class="title-section">You do the business, we’ll handle the money. Lorem ipsum dolor sit amet.</h2>
+          <p class="title-description">With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market. With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p> <br>
+          <p class="title-description">With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market. With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
+        </div>
+
+        <div class="section__block_description">
+          <ul class="lists">
+            <li class="navbar__list">
+              <div class="block">
+                <img src="./img/icons/star.svg" alt="star">
+
+                <div class="block-text">
+                  <h3 class="title-section">Rewards</h3>
+                  <p class="title-description">The best credit cards offer some tantalizing combinations of promotions and prizes</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="navbar__list">
+              <div class="block">
+                <img src="./img/icons/secure.svg" alt="star">
+
+                <div class="block-text">
+                  <h3 class="title-section">100% Secured</h3>
+                  <p class="title-description">We take proactive steps make sure your information and transactions are secure.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="navbar__list">
+              <div class="block">
+                <img src="./img/icons/transfer.svg" alt="star">
+
+                <div class="block-text">
+                  <h3 class="title-section">Balance Transfer</h3>
+                  <p class="title-description">A balance transfer credit card can save you a lot of money in interest charges.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section section-4">
+      <div class="section__block">
+        <div class="section__block_description">
+          <img src="./img/icons/checkout.svg" alt="checkout" class="checkout">
+          <img src="./img/icons/shape.svg" alt="shape" class="shape">
+
+          <div class="cards">
+            <img src="./img/icons/bulk.svg" alt="bulk">
+            <p class="title-description">Great! Your Payment is succesfully.</p>
+          </div>
+        </div>
+
+        <div class="section__block_description">
+          <h1 class="title">Easily control billing</h1>
+          <p class="title-description">Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat. With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
+
+          <ul class="navbar__lists pt-5">
+            <li class="navbar__list">
+              <img src="./img/icons/app_store.svg" alt="app_store">
+            </li>
+            <li class="navbar__list">
+              <img src="./img/icons/google_play.svg" alt="google_play">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section section-5 mt-5">
+      <div class="section__block">
+        <div class="section__block_description">
+          <h1 class="title">Find a better card deal in few easy steps.</h1>
+          <p class="title-description">Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.</p>
+
+          <a href="#" class="btns btns__add" data-toggle="modal" data-target="#exampleModalCenter">Get Started</a>
+        </div>
+
+        <div class="section__block_description">
+          <div class="roud">
+            <h2 class="title">Find a better</h2>
+            <div class="roud-2">
+              <h2 class="title">Find a better</h2>
+              <div class="roud-3">
+                <h2 class="title">Find a better</h2>
+                <div class="roud-4">
+                  <h2 class="title">Find a better</h2>
+                  <div class="roud-5">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section section-6">
+      <div class="section__block">
+        <div class="section__block_description">
+          <h3 class="title">What people are saying about us</h3>
+        </div>
+
+        <div class="section__block_description">
+          <p class="title-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis voluptatibus doloribus harum recusandae minus nesciunt voluptate rerum sit, atque cupiditate voluptas, quasi, quo dolore sint pariatur placeat autem est! Alias, perferendis asperiores? Perspiciatis aut, exercitationem error veritatis aliquid cum excepturi accusamus. In autem culpa tempore saepe ea reiciendis non. Molestiae!</p>
+        </div>
+      </div>
+
+      <div class="section__block">
+        <ul class="navbar__lists">
+          <li class="navbar__list">
+            <div class="cards">
+              <h3 class="title-section">"Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver"</h3>
+              <p class="title-description">Herman Jensen <br> - Founder & Leader</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section__block">
+        <ul class="navbar__lists">
+          <li class="navbar__list">
+            <div class="cards">
+              <h3 class="title-section">"Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver"</h3>
+              <p class="title-description">Steve Mark <br> - CEO EPAM</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section__block">
+        <ul class="navbar__lists">
+          <li class="navbar__list">
+            <div class="cards">
+              <h3 class="title-section">"Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver"</h3>
+              <p class="title-description">Kenn Gallagher <br> - CTO Godel Techn.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container section section-7">
+      <div class="section__block">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="cards__item">
+                <img src="./img/icons/airbnb.svg" alt="" width="150" height="150" class="product__image">  
+              </div>
+
+              <div class="cards__item">
+                <img src="./img/icons/bihance.svg" alt="" width="150" height="150" class="product__image">  
+              </div>
+
+              <div class="cards__item">
+                <img src="./img/icons/coinbase.svg" alt="" width="150" height="150" class="product__image">  
+              </div>
+
+              <div class="cards__item">
+                <img src="./img/icons/dropbox.svg" alt="" width="150" height="150" class="product__image">  
+              </div>
+            </div>
+          </div>
+    
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section section-8">
+      <div class="section__block">
+        <div class="cards">
+          <h1 class="title">Let’s try our service now!.</h1>
+          <p class="title-description">Everything you need to accept card payments and grow your business anywhere on the planet.</p>
+          <a href="#" class="btns btns__add" data-toggle="modal" data-target="#exampleModalCenter">Lets Go</a>
+        </div>
+      </div>
+
+      <div class="section__block">
+        <div class="cards">
+          <h1 class="title">Everything you need.</h1>
+          <p class="title-description">Everything you need to accept card payments and grow your business anywhere on the planet.</p>
+          <a href="#" class="btns btns__add" data-toggle="modal" data-target="#exampleModalCenter">Lets View</a>
+        </div>
+      </div>
+
+      <div class="section__block">
+        <div class="cards">
+          <h1 class="title">Payments and grow</h1>
+          <p class="title-description">Everything you need to accept card payments and grow your business anywhere on the planet.</p>
+          <a href="#" class="btns btns__add" data-toggle="modal" data-target="#exampleModalCenter">Lets start</a>
+        </div>
+      </div>
+    </section>
+  </main>
   
+  <footer class="footer">
+    <div class="logo">
+      <img src="./img/icons/logo.svg" alt="logo" class="image">
+      <a href="./index.html" class="logo-title">HooBank</a>
+    </div>
+
+    <nav class="navbar">
+      <h3 class="title-section">Usefull Links</h3>
+
+      <ul class="navbar__lists navbar__lists_footer">
+        <li class="navbar__list"><a href="#" class="navbar__link">Content</a></li>
+        <li class="navbar__list"><a href="#" class="navbar__link">How it Works</a></li>
+        <li class="navbar__list"><a href="#" class="navbar__link">Create</a></li>
+        <li class="navbar__list"><a href="#" class="navbar__link">Explore</a></li>
+      </ul>
+    </nav>
+
+    <nav class="navbar">
+      <h3 class="title-section">Community</h3>
+
+      <ul class="navbar__lists navbar__lists_footer">
+        <li class="navbar__list"><a href="#" class="navbar__link">Help Center</a></li>
+        <li class="navbar__list"><a href="#" class="navbar__link">Partners</a></li>
+        <li class="navbar__list"><a href="#" class="navbar__link">Suggestions</a></li>
+        <li class="navbar__list"><a href="#" class="navbar__link">Blog</a></li>
+      </ul>
+    </nav>
+
+    <nav class="navbar">
+      <h3 class="title-section">Partnership</h3>
+
+      <ul class="navbar__lists navbar__lists_footer">
+        <li class="navbar__list"><a href="#" class="navbar__link">Our Partner</a></li>
+        <li class="navbar__list"><a href="#" class="navbar__link">Become</a></li>
+        <li class="navbar__list"><a href="#" class="navbar__link">Services</a></li>
+        <li class="navbar__list"><a href="#" class="navbar__link">Newsletters</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <div class="copyrights">
+    <div class="section__block_description">
+      <p class="title-description">Copyright | 2021 HooBank. All Rights Reserved</p>
+    </div>
+
+    <div class="section__block_description">
+      <ul class="navbar__lists">
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">
+            <img src="./img/icons/facebook.svg" alt="social">
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">
+            <img src="./img/icons/twitter.svg" alt="social">
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">
+            <img src="./img/icons/linkedin.svg" alt="social">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLongTitle">Modal title</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="title-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maxime quia fugiat, ipsam voluptatum est ullam non rem eius expedita neque veritatis iure! Fugit quas eligendi repellat fuga? Minima, magni, quas accusamus quis id unde architecto quisquam ut exercitationem tempora, nisi eos? Non excepturi corporis accusantium officiis voluptates temporibus ipsam.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script type="module" src="./js/swiper.js"></script>
+  <script type="module" src="./js/modal.js"></script>
 </body>
 </html>

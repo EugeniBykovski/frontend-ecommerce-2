@@ -1,0 +1,14 @@
+.footer {
+  @include flex();
+  position: relative;
+  width: 100%;
+  padding: $p-2;
+}
+
+.copyrights {
+  @include flex();
+
+  .navbar__lists {
+    justify-content: center;
+  }
+}

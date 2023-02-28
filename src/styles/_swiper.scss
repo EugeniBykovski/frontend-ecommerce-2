@@ -1,0 +1,16 @@
+.swiper {
+  width: 100%;
+  height: auto;
+
+  &-slide {
+    @include flex();
+  }
+
+  &-scrollbar {
+    bottom: 0;
+
+    &-drag {
+      background-color: $color-green;
+    }
+  }
+}

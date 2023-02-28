@@ -1,0 +1,61 @@
+.section {
+  padding: $p-3 0;
+
+  &__block {
+    @include flex();
+
+    &_image {
+      position: relative;
+
+      width: 50%;
+      height: 30rem;
+    }
+
+    &_description {
+      @include transition();
+      position: relative;
+
+      width: 50%;
+      padding: $p-3;
+
+      text-align: center;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__image {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-1,
+  &-2 {
+    margin-top: $m-10;
+  }
+
+  &-4 {
+    .cards {
+      position: absolute;
+      top: 18rem;
+      z-index: 2;
+      right: 7rem;
+    }
+  }
+
+  &-6 {
+    .title-description {
+      position: absolute;
+      left: 25rem;
+
+      transform: rotate(-90deg);
+      width: 100vw;
+    }
+  }
+
+  &-product {
+    margin-top: $m-6;
+  }
+}

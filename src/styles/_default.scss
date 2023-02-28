@@ -1,0 +1,179 @@
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-green;
+}
+
+html,
+body {
+  font-family: $font-family;
+  font-size: $font-12;
+
+  color: $secondary-color;
+  overflow-x: hidden;
+  background: $primary-color;
+}
+
+// Blocks
+.container {
+  @include container();
+}
+
+// Text
+.title {
+  @include transition();
+
+  padding: $p-2;
+  
+  font-size: $font-48;
+  font-weight: $font-w-700;
+
+  text-align: center;
+  letter-spacing: .2rem;
+  line-height: 55px;
+  color: $color-green;
+  cursor: pointer;
+
+  &-section {
+    padding: $p-1-3;
+
+    line-height: 30px;
+    font-size: $font-24;
+    text-align: center;
+    color: $color-green;
+  }
+
+  &-description {
+    padding: 0 $p-0-5;
+  
+    font-size: $font-12;
+    text-align: center;
+
+    color: $color-blue;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+}
+
+.lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  padding: $p-2;
+}
+
+.decorate {
+  color: $color-white;
+}
+
+.image {
+  width: 100%;
+
+  &__card {
+    position: absolute;
+    right: 0px;
+    top: 5rem;
+    width: fit-content;
+    height: 80%;
+  }
+}
+
+.logo {
+  @include flex();
+
+  &-title {
+    @include transition();
+
+    padding-left: $p-1;
+
+    color: $color-white;
+    text-decoration: none;
+    font-weight: $font-w-500;
+
+    &:hover {
+      color: $color-green;
+      text-decoration: none;
+    }
+  }
+}
+
+.pt-2 {
+  padding-top: $p-2;
+}
+
+.modal {
+  backdrop-filter: blur(8px);
+
+  &-body {
+    background: $bg-card;
+  }
+
+  &-header {
+    background: $color-green;
+    border-bottom: none;
+    color: $color-white;
+  }
+}
+
+.close {
+  text-shadow: none;
+  opacity: 1;
+}
+
+.checkout {
+  position: absolute;
+  top: -16rem;
+  right: 2rem;
+  z-index: 2;
+}
+
+.shape {
+  position: absolute;
+  left: 10rem;
+  top: -2rem;
+  z-index: 1;
+}
+
+.roud {
+  height: 45rem;
+
+  border: 5px solid $color-green;
+  border-radius: 50%;
+
+  .title {
+    transform: rotateZ(25deg);
+  }
+
+  &-2 {
+    height: 35rem;
+
+    border: 5px solid $color-green;
+    border-radius: 50%;
+  }
+
+  &-3 {
+    height: 25rem;
+
+    border: 5px solid $color-green;
+    border-radius: 50%;
+  }
+
+  &-4 {
+    height: 15rem;
+
+    border: 5px solid $color-green;
+    border-radius: 50%;
+  }
+
+  &-5 {
+    height: 5rem;
+
+    border: 5px solid $color-green;
+    border-radius: 50%;
+  }
+}
