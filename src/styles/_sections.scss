@@ -59,3 +59,15 @@
     margin-top: $m-6;
   }
 }
+
+.about {
+  border-bottom: 2px solid $color-green;
+
+  .title {
+    @include filter();
+
+    &:hover {
+      filter: none;
+    }
+  }
+}

@@ -14,3 +14,11 @@
     }
   }
 }
+
+.about{
+  .swiper {
+    &-scrollbar {
+      display: none;
+    }
+  }
+}

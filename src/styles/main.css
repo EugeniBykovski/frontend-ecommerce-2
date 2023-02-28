@@ -225,7 +225,7 @@ body {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 .btns:hover {
-  filter: blur(1px);
+  filter: blur(4px);
   color: #ffffff;
   box-shadow: 0 5px 10px rgba(18, 95, 69, 0.4);
   text-decoration: none;
@@ -249,6 +249,10 @@ body {
 }
 .swiper-scrollbar-drag {
   background-color: #20da7d;
+}
+
+.about .swiper-scrollbar {
+  display: none;
 }
 
 .navbar {
@@ -381,6 +385,16 @@ body {
 }
 .section-product {
   margin-top: 6rem;
+}
+
+.about {
+  border-bottom: 2px solid #20da7d;
+}
+.about .title {
+  filter: blur(4px);
+}
+.about .title:hover {
+  filter: none;
 }
 
 .footer {
