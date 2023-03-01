@@ -17,18 +17,30 @@
   
   color: $color-white;
   background: $color-white;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  box-shadow: 0 8px 15px $box-shadow-third;
 
   &:hover {
     @include filter();
 
     color: $color-white;
-    box-shadow: 0 5px 10px rgba(18, 95, 69, .4);
+    box-shadow: 0 5px 10px $box-shadow-second;
     text-decoration: none;
     transform: translateY(-3px);
   }
 
   &__add {
     background: $color-green;
+  }
+
+  &__up {
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+    
+    cursor: pointer;
+
+    &_hide {
+      display: none;
+    }    
   }
 }

@@ -25,10 +25,12 @@
 
   &__link {
     @include transition();
-
+    
+    position: relative;
     padding: $p-0-5 0;
-    text-decoration: none;
 
+    text-decoration: none;
+    line-height: 30px;
     color: $color-white;
     font-size: $font-13;
 
@@ -37,4 +39,9 @@
       text-decoration: none;
     }
   }
+}
+
+.badge {
+  position: absolute;
+  left: 5rem;
 }

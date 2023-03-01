@@ -15,6 +15,8 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="../styles/main.css">
 </head>
@@ -30,13 +32,13 @@
         <li class="navbar__list"><a href="../index.html" class="navbar__link">Home</a></li>
         <li class="navbar__list"><a href="./about.html" class="navbar__link">About Us</a></li>
         <li class="navbar__list"><a href="./features.html" class="navbar__link">Features</a></li>
-        <li class="navbar__list"><a href="./solution.html" class="navbar__link">Solution</a></li>
+        <li class="navbar__list"><a href="./solution.html" class="navbar__link">Solution <span class="badge badge-dark">3</span></a></li>
       </ul>
     </nav>
   </header>
 
   <main class="main">
-    <section class="container section section-1 about">
+    <section class="container section section-1 line">
       <h1 class="title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, sequi.</h1>
 
       <div class="section__block">
@@ -59,7 +61,7 @@
       <h3 class="title-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed suscipit labore amet consectetur veritatis repellendus itaque totam quasi, alias illo vitae architecto doloremque a dolorem atque debitis ipsum at? Laudantium fuga totam enim obcaecati quibusdam voluptatum quas quod ad, accusamus est vitae, aliquam ut voluptates, accusantium sequi. Corrupti est voluptatibus praesentium. Corrupti aperiam molestias adipisci maxime! Placeat, minima consectetur. Natus, enim quis ipsam dolorem distinctio facere praesentium, deserunt, ratione a molestias veniam. Deserunt temporibus asperiores, animi dolorem, eos possimus eum facilis ab illum quod consequuntur a nemo iste veniam id ullam qui saepe! Repudiandae, facilis quos, quibusdam aut nihil alias laudantium ab omnis ad id distinctio. Reprehenderit est blanditiis ipsa voluptatibus sit, debitis maxime repellat dolorem fugiat labore sed dolorum, expedita quo facilis beatae totam. Sequi earum assumenda sed rem debitis voluptate fuga eaque officia aut beatae repudiandae, ex cupiditate! Nostrum saepe ipsum quam accusantium sequi. Dolores nobis dicta officia?</h3>
     </section>
 
-    <section class="container section about">
+    <section class="container section line">
       <div class="section__block">
         <div class="swiper">
           <div class="swiper-wrapper">
@@ -87,7 +89,7 @@
       </div>
     </section>
 
-    <section class="container section about">
+    <section class="container section line">
       <div class="section__block">
         <div class="section__block_description">
           <h1 class="title">Rewards...</h1>
@@ -142,7 +144,7 @@
       </div>
     </section>
 
-    <section class="container section about">
+    <section class="container section line">
       <div class="section__block">
         <h2 class="title-section">Customers</h2>
         <img src="../img/icons/bulk.svg" alt="bulk">
@@ -192,7 +194,7 @@
       </div>
     </section>
 
-    <section class="container section about">
+    <section class="container section line">
       <div class="section__block">
         <div class="section__block_description">
           <ul class="lists">
@@ -226,11 +228,17 @@
   </main>
   
   <footer class="footer">
-    <div class="logo">
-      <img src="../img/icons/logo.svg" alt="logo" class="image">
-      <a href="../index.html" class="logo-title">HooBank</a>
-    </div>
+    <div class="logo"></div>
 
+    <nav class="navbar">
+      <ul class="navbar__lists">
+        <li class="navbar__list"><a href="../index.html" class="navbar__link">Home</a></li>
+        <li class="navbar__list"><a href="./about.html" class="navbar__link">About Us</a></li>
+        <li class="navbar__list"><a href="./features.html" class="navbar__link">Features</a></li>
+        <li class="navbar__list"><a href="./solution.html" class="navbar__link">Solution <span class="badge badge-dark">3</span></a></li>
+      </ul>
+    </nav>
+    
     <nav class="navbar">
       <h3 class="title-section">Usefull Links</h3>
 
@@ -291,7 +299,48 @@
     </div>
   </div>
 
-  <!-- Modal -->
+  <div class="left-block">
+    <nav class="navbar">
+      <ul class="navbar__lists navbar__lists_footer">
+        <li class="navbar__list">
+          <a href="../index.html" class="navbar__link">
+            <span class="material-icons">home</span>
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">
+            <span class="material-icons">account_circle</span>
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">
+            <span class="material-icons">fingerprint</span>
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">
+            <span class="material-icons">favorite_border</span>
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">
+            <span class="material-icons">visibility_off</span>
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">
+            <span class="material-icons">drag_indicator</span>
+          </a>
+        </li>
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">
+            <span class="material-icons">payment</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -308,6 +357,8 @@
     </div>
   </div>
 
+  <div class="btns btns__add btns__up btns__up_hide">Move Up</div>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -316,5 +367,6 @@
 
   <script type="module" src="../js/swiper.js"></script>
   <script type="module" src="../js/modal.js"></script>
+  <script type="module" src="../js/scroll_up.js"></script>
 </body>
 </html>

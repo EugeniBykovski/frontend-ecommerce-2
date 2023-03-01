@@ -11,17 +11,14 @@ body {
   font-family: $font-family;
   font-size: $font-12;
 
-  color: $secondary-color;
   overflow-x: hidden;
   background: $primary-color;
 }
 
-// Blocks
 .container {
   @include container();
 }
 
-// Text
 .title {
   @include transition();
 
@@ -78,6 +75,7 @@ body {
     position: absolute;
     right: 0px;
     top: 5rem;
+
     width: fit-content;
     height: 80%;
   }
@@ -92,18 +90,14 @@ body {
     padding-left: $p-1;
 
     color: $color-white;
-    text-decoration: none;
     font-weight: $font-w-500;
+    text-decoration: none;
 
     &:hover {
       color: $color-green;
       text-decoration: none;
     }
   }
-}
-
-.pt-2 {
-  padding-top: $p-2;
 }
 
 .modal {
@@ -129,6 +123,7 @@ body {
   position: absolute;
   top: -16rem;
   right: 2rem;
+
   z-index: 2;
 }
 
@@ -136,10 +131,11 @@ body {
   position: absolute;
   left: 10rem;
   top: -2rem;
+
   z-index: 1;
 }
 
-.roud {
+.around {
   height: 45rem;
 
   border: 5px solid $color-green;
